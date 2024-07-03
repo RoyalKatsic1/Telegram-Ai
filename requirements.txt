@@ -1,6 +1,5 @@
 requests == 2.31.0
 python-telegram-bot
-telegram.ext
 python-dotenv == 0.20.0
 logging
 pytest == 7.1.2
