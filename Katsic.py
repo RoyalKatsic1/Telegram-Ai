@@ -32,7 +32,7 @@ def meta_ai_generate_response(input_text):
         return f"Error: {e}"
 
 def main():
-    updater = Updater(telegram_token)
+    updater = Updater(telegram_token, None )
     dp = updater.dispatcher
     dp.add_handler(CommandHandler("start", start))
     dp.add_handler(MessageHandler(Filters.text, handle_message))
