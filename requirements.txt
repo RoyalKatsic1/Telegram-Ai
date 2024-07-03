@@ -1,0 +1,13 @@
+requests == 2.26.0
+python-telegram-bot == 2.3.0
+python-dotenv == 0.20.0
+logging
+json
+os
+pytest == 7.1.2
+flake8 == 4.0.1
+uvloop
+ujson
+numpy
+pandas
+python >= 3.8
