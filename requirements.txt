@@ -8,3 +8,9 @@ uvloop
 ujson
 numpy
 pandas
+pyTelegramBotAPI==4.12.0
+requests==2.31.0
+rsa==4.9
+six==1.16.0
+telebot==0.0.5
+urllib3==1.26.16
