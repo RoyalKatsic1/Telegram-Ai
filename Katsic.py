@@ -1,7 +1,7 @@
 import os
 import requests
 import telebot
-from telegram.ext import Updater, CommandHandler, MessageHandler
+from telegram.ext import Updater, Dispatcher CommandHandler, MessageHandler
 
 # Meta AI API settings
 api_key = os.environ.get("META_API")
@@ -33,7 +33,7 @@ def meta_ai_generate_response(input_text):
 
 def main():
     updater = Updater(telegram_token, None )
-    dp = updater.dp
+    dp = Dispatcher( updater )
     dp.add_handler(CommandHandler("start", start))
     dp.add_handler(MessageHandler(Filters.text, handle_message))
     updater.start_polling()
