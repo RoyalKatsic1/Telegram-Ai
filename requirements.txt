@@ -1,4 +1,4 @@
-requests == 2.26.0
+requests == 2.31.0
 python-telegram-bot == 2.3.0
 python-dotenv == 0.20.0
 logging
@@ -9,7 +9,6 @@ ujson
 numpy
 pandas
 pyTelegramBotAPI==4.12.0
-requests==2.31.0
 rsa==4.9
 six==1.16.0
 telebot==0.0.5
