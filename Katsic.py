@@ -33,7 +33,7 @@ def meta_ai_generate_response(input_text):
 
 def main():
     updater = Updater(telegram_token, None )
-    dp = updater.dispatcher
+    dp = updater.dp
     dp.add_handler(CommandHandler("start", start))
     dp.add_handler(MessageHandler(Filters.text, handle_message))
     updater.start_polling()
