@@ -8,4 +8,3 @@ uvloop
 ujson
 numpy
 pandas
-python
