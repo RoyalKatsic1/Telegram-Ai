@@ -1,7 +1,7 @@
 import os
 import requests
 import telebot
-from telegram.ext import Updater, Dispatcher CommandHandler, MessageHandler
+from telegram.ext import Updater, Dispatcher, CommandHandler, MessageHandler
 
 # Meta AI API settings
 api_key = os.environ.get("META_API")
