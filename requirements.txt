@@ -8,4 +8,4 @@ uvloop
 ujson
 numpy
 pandas
-python >= 3.8
+python
